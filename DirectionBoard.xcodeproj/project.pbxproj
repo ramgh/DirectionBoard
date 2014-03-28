@@ -21,6 +21,8 @@
 		A0CA5EA118E56AAA0008D4C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CA5E8318E56AA90008D4C3 /* UIKit.framework */; };
 		A0CA5EA918E56AAA0008D4C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0CA5EA718E56AAA0008D4C3 /* InfoPlist.strings */; };
 		A0CA5EAB18E56AAA0008D4C3 /* DirectionBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA5EAA18E56AAA0008D4C3 /* DirectionBoardTests.m */; };
+		A0CA5EB718E56B940008D4C3 /* direction_board.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CA5EB518E56B940008D4C3 /* direction_board.png */; };
+		A0CA5EB818E56B940008D4C3 /* direction_board@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CA5EB618E56B940008D4C3 /* direction_board@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		A0CA5EA618E56AAA0008D4C3 /* DirectionBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DirectionBoardTests-Info.plist"; sourceTree = "<group>"; };
 		A0CA5EA818E56AAA0008D4C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0CA5EAA18E56AAA0008D4C3 /* DirectionBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionBoardTests.m; sourceTree = "<group>"; };
+		A0CA5EB518E56B940008D4C3 /* direction_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = direction_board.png; sourceTree = "<group>"; };
+		A0CA5EB618E56B940008D4C3 /* direction_board@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "direction_board@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		A0CA5E8518E56AA90008D4C3 /* DirectionBoard */ = {
 			isa = PBXGroup;
 			children = (
+				A0CA5EB418E56B3B0008D4C3 /* Resources */,
 				A0CA5E8E18E56AA90008D4C3 /* ECSDBAppDelegate.h */,
 				A0CA5E8F18E56AA90008D4C3 /* ECSDBAppDelegate.m */,
 				A0CA5E9118E56AA90008D4C3 /* Main.storyboard */,
@@ -150,6 +155,15 @@
 				A0CA5EA718E56AAA0008D4C3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0CA5EB418E56B3B0008D4C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA5EB518E56B940008D4C3 /* direction_board.png */,
+				A0CA5EB618E56B940008D4C3 /* direction_board@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,8 @@
 			files = (
 				A0CA5E9818E56AA90008D4C3 /* Images.xcassets in Resources */,
 				A0CA5E8A18E56AA90008D4C3 /* InfoPlist.strings in Resources */,
+				A0CA5EB718E56B940008D4C3 /* direction_board.png in Resources */,
+				A0CA5EB818E56B940008D4C3 /* direction_board@2x.png in Resources */,
 				A0CA5E9318E56AA90008D4C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

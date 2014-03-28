@@ -2,7 +2,7 @@
 //  DirectionBoardTests.m
 //  DirectionBoardTests
 //
-//  Created by Arun Azhagappan on 28/03/14.
+//  Created by Rameshkumar Mookkan on 28/03/14.
 //  Copyright (c) 2014 ECSoftwareTak. All rights reserved.
 //
 
